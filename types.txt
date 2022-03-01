@@ -1,0 +1,12 @@
+['supermarket', 'grocery_or_supermarket', 'food', 'point_of_interest', 'store', 'establishment', 'cafe', 'clothing_store', 'shoe_store',
+'post_office', 'finance', 'point_of_interest', 'establishment', 'car_rental', 'electronics_store', 'store', 'restaurant', 'food', 'bar',
+'cafe', 'food', 'point_of_interest', 'establishment', 'restaurant', 'convenience_store', 'grocery_or_supermarket', 'store', 'bakery', 'supermarket',
+'car_repair', 'park', 'tourist_attraction', 'gym', 'health', 'car_wash', 'liquor_store', 'shopping_mall', 'furniture_store', 'home_goods_store',
+'lodging', 'laundry', 'hardware_store', 'electronics_store', 'hair_care', 'drugstore', 'bank', 'atm', 'finance', 'doctor', 'casino', 'car_dealer',
+'pet_store', 'bar', 'town_square', 'accounting', 'pharmacy']
+
+
+'supermarket', 'grocery_or_supermarket', 'food', 'point_of_interest', 'store', 'establishment', 'cafe', 'clothing_store', 'shoe_store',
+ 'post_office', 'finance', 'car_rental', 'electronics_store', 'restaurant', 'bar', 'convenience_store', 'bakery', 'car_repair', 'park', 
+'tourist_attraction', 'gym', 'health', 'car_wash', 'liquor_store', 'shopping_mall', 'furniture_store', 'home_goods_store', 'lodging', 'laundry',
+ 'hardware_store', 'hair_care', 'drugstore', 'bank', 'atm', 'doctor', 'casino', 'car_dealer', 'pet_store', 'town_square', 'accounting', 'pharmacy'

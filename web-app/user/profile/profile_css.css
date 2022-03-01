@@ -1,0 +1,252 @@
+#prof-section{
+    height: 100%;
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 7%;
+}
+
+.container{
+    display: flex;
+    justify-content: end;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .container{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+.box-1{
+    position: relative;
+    padding: 2%;
+    width: 25%;
+    height: 35%;
+    margin-right: 14%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+
+@media screen and (max-width: 1000px) {
+  .container .box-1{
+    width: 90%;
+  }
+}
+
+
+.box-2{
+    position: relative;
+    padding: 2%;
+    width: 45%;
+    height: 45%;
+    margin-right: 0%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+
+
+@media screen and (max-width: 1000px) {
+  .container .box-2{
+    width: 100%;
+  }
+}
+
+.avatar{
+    width: 110px;
+    border: 5px solid steelblue;
+    border-radius: 50%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-item h6{
+    font-size: medium;
+}
+
+#showpass{
+  cursor: pointer;
+}
+
+.error-div{
+  position: absolute;
+  width: 300px;
+  bottom: 10%;
+  right: 10%;
+}
+
+.error-msg{
+  padding: 1%;
+  font-size: large;
+}
+
+.text-secondary{
+  width: 80%;
+}
+
+.input-field{
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    width: 90%;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 17px;
+}
+
+.btn{
+    margin-top: 3%;
+}
+
+.box-table{
+    position: absolute;
+    top: 44%;  
+    right: 48%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: 33px 30px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+    bottom: 2%;
+    overflow: auto;
+  }
+
+@media screen and (max-width: 1000px) {
+  .container .box-table{
+    position:relative;
+    width: 95%;
+    margin-top: 10%;
+    margin-left: 53%;
+    
+  }
+
+  .row-item h6{
+    font-size: 80%;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .input-field{
+    font-size: 80%;
+  }
+}
+
+
+  table{
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  table * {
+    position: relative;
+  }
+  table td, table th {
+    padding-left: 8px;
+  }
+  table thead tr {
+    height: 60px;
+    background: rgb(67, 73, 75);;
+  }
+  table tbody tr {
+    height: 50px;
+  }
+  table tbody tr:last-child {
+    border: 0;
+  }
+  table td, table th {
+    text-align: left;
+  }
+  table td.l, table th.l {
+    text-align: right;
+  }
+  table td.c, table th.c {
+    text-align: center;
+  }
+  table td.r, table th.r {
+    text-align: center;
+  }
+  
+  
+  .table-head th{
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f5f5f5;
+  }
+  
+  tbody tr{
+    font-family: OpenSans-Regular;
+    font-size: 17px;
+    color: #636161;
+    line-height: 1.2;
+    font-weight: unset;
+  }
+  
+  tbody tr:hover {
+    color: #555555;
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .column1 {
+    width: 200px;
+    padding-left: 30px;
+  }
+  
+  .column2 {
+    width: 200px;
+  }
+  
+  .column3 {
+    width: 140px;
+    padding-right: 62px;
+  }

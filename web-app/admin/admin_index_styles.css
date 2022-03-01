@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif ;
+}
+
+.topbar{
+    position: fixed;
+    background: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    align-items: center;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h2{
+    position: sticky;
+    color: #4959ec;
+    font-family: 'Asap', sans-serif;
+}
+
+.logout-btn{
+  padding: 0.5em 1.5em;
+  font-size: 1.1em;
+  background-color: rgb(67, 73, 75);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+/*sidebar*/
+
+.sidebar{
+    position: fixed;
+    top: 60px;
+    width: 260px;
+    height: calc(100% - 60px);
+    background: #4959ec;
+    overflow-x: hidden;
+}
+
+.sidebar ul{
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.sidebar ul li{
+    width: 100%;
+    list-style: none;
+}
+
+.sidebar ul li:hover{
+    background: #ffffff;
+}
+
+.sidebar ul li:hover a{
+    color: #4959ec;
+}
+
+.sidebar ul li a{
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+.sidebar ul li a i{
+    min-width: 60px;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+/*main*/
+
+.main{
+ position: absolute;
+ top: 60px;
+ width: calc(100% - 260px);
+ left: 260px;
+ min-height: calc(100vh - 60px);
+ background: #f5f5f5;   
+}
+
+.cards{
+    width: 100%;
+    padding: 35px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    
+}
+
+.cards .card{
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+}
+
+.card-name{
+    color: #636363;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.icons{
+    font-size: 40px;
+    color: #4959ec;
+}
+
+/*chart*/
+
+.charts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.chart{
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    width: 100%;
+}
+
+#myChart1, #myChart2{
+    width: 100%;
+}
+
+
+/*ranking tables*/
+
+.ranking{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.total-ranking{
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  0 7px 25px rgba(0, 0, 0, 0.08);
+    width: 100%;
+}
+
+.table-box{
+    padding: 7px;
+    width: 100%;
+    font-size: 1.2em;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+table{
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  table * {
+    position: relative;
+  }
+  table td, table th {
+    padding-left: 8px;
+  }
+  table thead tr {
+    height: 60px;
+    background: rgb(77, 87, 90);
+  }
+  table tbody tr {
+    height: 50px;
+  }
+  table tbody tr:last-child {
+    border: 0;
+  }
+  table td, table th {
+    text-align: left;
+  }
+  table td.l, table th.l {
+    text-align: right;
+  }
+  table td.c, table th.c {
+    text-align: center;
+  }
+  table td.r, table th.r {
+    text-align: center;
+  }
+  
+  
+  .table-head th{
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f5f5f5;
+  }
+  
+  tbody tr{
+    font-family: OpenSans-Regular;
+    font-size: 17px;
+    color: #636161;
+    line-height: 1.2;
+    font-weight: unset;
+  }
+  
+  tbody tr:hover {
+    color: #555555;
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+
+  .total-ranking h3, .chart h3{
+      font-weight: lighter;
+  }
+
+
+input[type="date"]{
+    border-radius: 5%;
+    background-color: rgb(241, 237, 237);
+  }
