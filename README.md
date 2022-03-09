@@ -16,6 +16,32 @@ The interaction with the user is done through an adaptive website that allows ac
 4) Registration of a POI visit and crowd estimation.
 5) The user has the ability to state in the application if he is COVID-19 case and when it was diagnosed.
 6) The user can see if he has come in contact with a case of last 7 days. A list of points of interest visited by the user is displayed, including date and time,
-   and for which a case has been recorded which:
-   a) Was at the same point as the user in a range of + -2 hours and
-   b) has been diagnosed as a case within 7 days of the visit.
+   and for which a case has been recorded which:  
+     a) Was at the same point as the user in a range of +- 2 hours and  
+     b) has been diagnosed as a case within 7 days of the visit.
+7) The user can edit his personal info and see the detailed history of his visits and case statements he/she has made.
+
+# Administrator
+The administrator is not registered in the system but is created as an entity directly to the relevant database.
+When logging in, it has the following features:
+# Upload, update and delete data.
+The administrator has the ability to load POIs and traffic data. He/She can also update this data, whithout creating 
+   duplicate registrations. It can also choose to delete all data.
+# Plot statistics
+The administrator sees relevant information on one page, in tables and / or graphs depicting:
+   a. Total number of visits recorded.
+   b. Total number of reported cases.
+   c. Total number of visits from active cases: The visit should have taken place up to 7 days before the case diagnosis date and up to 14 days after.
+   d. Classification of the categories of points of interest that exist in the NW of the system, based on the total number of visits as recorded by users.
+   e. Classification of the categories of points of interest that exist in the NW of the system, based on the number of cases that had occurred to them, up to 7 days
+   before date of case diagnosis and up to 14 days later.
+   f. Show chart by day, where:
+      i. A predefined range is selected (specific week or specific month).
+      ii. The possibility of displaying one or more of them is selected with a filter below:
+         1. The number of visits reported by users for each day.
+         2. The number of visits from diagnosed cases for each day
+   g. Display chart by hour, where:
+   i. A specific date is selected
+   ii. The ability to display one or more of the following is selected with a filter:
+      1. The change in the number of visits per hour.
+      2. The change in the number of visits from a reported case per hour
