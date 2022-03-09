@@ -1,7 +1,7 @@
 # Population traffic data for control COVID-19 dispersion
 
 # The aim of this work is to develop a population data system, which attendance of points of interest and management of possible contact with a case COVID-19.
-# Managing the pandemic by COVID-19 and its aftermath is a challenge in many countries
+Managing the pandemic by COVID-19 and its aftermath is a challenge in many countries
 of the world. Multipliers can be used to control possible dispersal
 Traffic data already collected by providers such as Google and related to
 frequency of visits to geographical points of interest (POIs), such as shops, restaurants,
