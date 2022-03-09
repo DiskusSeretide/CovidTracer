@@ -25,7 +25,7 @@ At the same time, it is only an estimate based on geographical location data and
 ### The administrator is not registered in the system but is created as an entity directly to the relevant database. When logging in, it has the following features:
 1) The administrator has the ability to load POIs and traffic data. Administrator can also update, validate and choose to delete this data.
 2) The administrator page is used as a relevant information tracking media depicting via raw numbers, tables or graphs:  
-   &nbsp;&nbsp;&nbsp;a. Total number of visits recorded  
+   &ebsp;a. Total number of visits recorded  
    &nbsp;&nbsp;&nbsp;b. Total number of reported cases    
    &nbsp;&nbsp;&nbsp;c. Total number of visits from active cases (7 days before the case diagnosis date and up to 14 days after)   
    &nbsp;&nbsp;&nbsp;d. Classification of the categories of points of interest, based on the total number of visits as recorded by users  
