@@ -30,12 +30,12 @@ At the same time, it is only an estimate based on geographical location data and
    &nbsp;&nbsp;&nbsp;c. Total number of visits from active cases (7 days before the case diagnosis date and up to 14 days after)   
    &nbsp;&nbsp;&nbsp;d. Classification of the categories of points of interest, based on the total number of visits as recorded by users  
    &nbsp;&nbsp;&nbsp;e. Classification of the categories of points of interest, based on the number of cases that had occurred  
-   &nbsp;&nbsp;&nbsp;f. Show chart by day, where:  
+   &nbsp;&nbsp;&nbsp;f. Chart by day, where:  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. A predefined range is selected (specific week or specific month)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. The possibility of displaying one or more of them is selected with a filter below:  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. The number of visits reported by users for each day    
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. The number of visits from diagnosed cases for each day  
-   &nbsp;&nbsp;&nbsp;g. Display chart by hour, where:  
+   &nbsp;&nbsp;&nbsp;g. Chart by hour, where:  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. A specific date is selected  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. The ability to display one or more of the following is selected with a filter:  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. The change in the number of visits per hour    
