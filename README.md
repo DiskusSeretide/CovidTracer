@@ -1,4 +1,4 @@
-# Population traffic data for control COVID-19 dispersion
+# Population traffic data for control of the COVID-19 dispersion
 
 ## The aim of this work is to develop a population data system, which attendance of points of interest and management of possible contact with a COVID-19 case
 Managing the pandemic by COVID-19 and its aftermath is a challenge in many countries of the world. Multipliers can be used to control possible dispersal
